@@ -16,21 +16,21 @@
 
 Nota: Las operaciones de agregar, modificar y eliminar no afectan los datos reales de la API debido a su naturaleza simulada.
 
-### 🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 
 - HTML5: Proporciona la estructura de la aplicación.
 - CSS3: Diseños y estilos personalizados.
 - JavaScript (ES6): Gestiona la lógica de la aplicación.
 - Axios: Realiza solicitudes HTTP a la API.
 
-### 🧩 Estructura del proyecto
+## 🧩 Estructura del proyecto
 
 ├── telefonos.html       # Página principal de la aplicación
 ├── estilos.css          # Estilos personalizados para la interfaz
 ├── script.js            # Lógica principal (funciones GET, POST, PUT, DELETE)
 └── README.md            # Documentación del proyecto
 
-### ⚙️ Cómo funciona
+## ⚙️ Cómo funciona
 
 1️⃣ Mostrar todos los registros (GET)
 Cargará todos los dispositivos en una tabla interactiva. La función obtenerTodos() realiza una solicitud GET a la API y genera dinámicamente el contenido en una tabla HTML.
@@ -47,16 +47,16 @@ Tras buscar un dispositivo por ID, edita sus detalles en el formulario y presion
 5️⃣ Eliminar un dispositivo (DELETE)
 Introduce el ID del dispositivo a eliminar y presiona el botón Eliminar. La función simula el borrado exitoso del dispositivo.
 
-### 🐛 Contribuir
+## 🐛 Contribuir
 
 - Si encuentras un error o tienes ideas para mejorar este proyecto:
 - Abre un issue.
 - Envía un pull request con tus cambios.
 
-### 📄 Licencia
+## 📄 Licencia
 
 Este proyecto está bajo la licencia MIT. Siéntete libre de usarlo, modificarlo y distribuirlo.
 
-### 🙌 Autor
+## 🙌 Autor
 
 Desarrollado con ❤ por **Laura Castaño** *(laucdevs)*
