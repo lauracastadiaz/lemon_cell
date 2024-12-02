@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web de Telefonía Móvil</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body onload="obtenerTodos()">
+    <div class="titulo">
+        <h1>LEMON CELL</h1>
+
+    </div>
+
+    <hr class="linea">
+
+
+    <div>
+        <h2>Administración de productos</h2>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Modelo</th>
+                    <th>Color</th>
+                    <th>Almacenamiento</th>
+                    <th>Procesador</th>
+                </tr>
+            </thead>
+            <tbody id="tblContenido">
+            </tbody>
+        </table>
+    </div>
+
+    <div id="consultarArticulo">
+        <div>
+            <h3>Consultar artículo</h3> 
+            <input type="text" id="txtConsulta" placeholder="Ingresa ID de artículo">
+            <button onclick="consultarUno()">Consultar</button>
+        </div>
+
+        <div>
+            <label for="consultaNombre">Marca:</label>
+            <textarea id="consultaNombre" rows="1" cols="30"></textarea>
+        </div>
+        <div>
+            <label for="consultaModelo">Modelo:</label>
+            <textarea id="consultaModelo" rows="1" cols="30"></textarea>
+        </div>
+        <div>
+            <label for="consultaColor">Color:</label>
+            <textarea id="consultaColor" rows="1" cols="30"></textarea>
+        </div>
+        <div>
+            <label for="consultaAlmacenamiento">Almacenamiento:</label>
+            <textarea id="consultaAlmacenamiento" rows="1" cols="30"></textarea>
+        </div>
+        <div>
+            <label for="consultaProcesador">Procesador:</label>
+            <textarea id="consultaProcesador" rows="1" cols="30"></textarea>
+        </div>
+        <button onclick="modificarUno()">Modificar</button>
+        <button onclick="eliminarUno()">Eliminar</button>
+    </div>
+
+    <br>
+
+    
+        <div id="agregarArticulo">
+            <h3>Agregar artículo</h3>
+            <input type="text" id="inputMarca" placeholder="Marca">
+            <input type="text" id="inputModelo" placeholder="Modelo">
+            <input type="text" id="inputColor" placeholder="Color">
+            <input type="text" id="inputAlmacenamiento" placeholder="Almacenamiento (GB)">
+            <input type="text" id="inputProcesador" placeholder="Procesador">
+            <button onclick="agregarUno()">Agregar Nuevo</button>
+        </div>
+    
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

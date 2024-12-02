@@ -1,0 +1,118 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fff;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    background-color: #FF4545;
+    border: 2px solid #FBD288;
+}
+
+h1{
+    color:#fff;
+    margin-top: 25px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.linea {
+    margin-top: -1px;
+    border-color: #ddd;
+}
+
+h2{
+    color: #FF4545;
+    padding-top: 20px;
+    text-align: center;
+}
+
+h3{
+    
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
+    color: #FF4545;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+}
+
+th,td {
+    border: 1px solid #ddd;
+    padding: 8px; 
+    text-align: center;
+}
+
+th{
+    background-color: #FF9C73;
+    font-weight: bold;
+    color: #fff;
+}
+
+td{
+    background-color: #FFFFE0;
+}
+
+#consultarArticulo{
+    text-align: center;
+}
+
+#agregarArticulo{
+    text-align: center;
+    margin: 30px;
+}
+
+input{
+    background-color: #FFFFE0;
+    padding: 10px 10px;
+    font-size: 14px;
+    width: 150px;
+    border: 2px solid #FF4545;
+   
+}
+
+label {
+    display: inline-block;
+    width: 130px; 
+    margin:7px;
+    vertical-align:auto;
+    line-height: 30px;
+}
+
+textarea {
+    background-color: #FFFFE0;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ccc;
+    cursor: text;
+    font-family: inherit;
+    font-size: 100%;
+    padding: 8px;
+    resize: none;
+   text-align: left;
+   height: 20px; 
+}
+
+button{
+    margin: 20px;
+    background-color: #FF4545;
+    color: white;
+    height: 35px;
+    font-size: 15px;
+    width: 170px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #fc7575e0;;
+}
+
