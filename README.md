@@ -1,4 +1,4 @@
-# 🎯 Lemon Cell - Administrador de Smartphones con API
+# 📱 Lemon Cell - Administrador de Smartphones con API
 
  Lemon Cell es una aplicación web que permite gestionar smartphones de manera eficiente. Ofrece una simulación completa de funciones como listar, buscar, agregar, modificar y eliminar dispositivos. Sin embargo, ya que utiliza una API simulada proporcionada por My JSON Server, los datos no se modificarán realmente, lo que la hace ideal para demostraciones y aprendizaje.
 
