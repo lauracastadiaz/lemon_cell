@@ -4,7 +4,7 @@
 
 ## 🌐 **URL del Sitio**
 ¡Prueba la aplicación en vivo aquí!
-👉 [https://adivinumator-juego.netlify.app/]
+👉 [[https://adivinumator-juego.netlify.app/](https://lemon-cell.netlify.app/telefonos)]
 
 ## 🚀 Características
 
