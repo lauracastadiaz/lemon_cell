@@ -79,7 +79,7 @@ input {
     padding: 10px;
     font-size: 14px;
     width: 100%; /* Make input fields fill container width */
-    border: 2px solid #FF4545;
+    border: 2px solid  #FF9C73;
     margin: 10px 0;
     box-sizing: border-box; /* Prevent padding from affecting total width */
 }
